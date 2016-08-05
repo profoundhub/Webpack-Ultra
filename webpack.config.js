@@ -38,6 +38,10 @@ var config = {
     {
       test: /\.js$/,
       loader: 'babel',
+      query:
+      {
+        presets:['react']
+      },
       exclude: [nodeModulesPath]
     },
 
