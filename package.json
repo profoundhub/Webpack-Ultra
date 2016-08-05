@@ -27,6 +27,7 @@
   },
   "dependencies": {
     "babel-cli": "^6.4.0",
+    "http-proxy": "^1.14.0",
     "react": "*",
     "react-dom": "*"
   },

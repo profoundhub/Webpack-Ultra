@@ -7,6 +7,7 @@ var httpProxy = require('http-proxy');
 var proxy = httpProxy.createProxyServer({
   changeOrigin: true
 });
+
 var app = express();
 
 var isProduction = process.env.NODE_ENV === 'production';
