@@ -1,11 +1,14 @@
 import React from 'react';
 import styles from './App.css';
 
-export default class App extends React.Component {
+class App extends Component {
   constructor(props) {
     super(props);
-    this.state = {test: 'foo'};
+    this.state = {
+      test: 'foo'
+    }
   }
+
   render() {
     return (
       <div className={styles.app}>
@@ -14,3 +17,5 @@ export default class App extends React.Component {
     );
   }
 }
+
+export default App
