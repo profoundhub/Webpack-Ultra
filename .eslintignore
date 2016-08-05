@@ -3,6 +3,3 @@ node_modules
 coverage
 webpack.*.js
 *Server.js
-.DS_Store
-*.log
-.idea

@@ -2,15 +2,13 @@ var Webpack = require('webpack');
 var path = require('path');
 var nodeModulesPath = path.resolve(__dirname, 'node_modules');
 var buildPath = path.resolve(__dirname, 'public', 'build');
-var mainPath = path.resolve(__dirname, 'app', 'main.js');
+var mainPath = path.resolve(__dirname, 'app', 'main.jsx');
 
 var config = {
-
   // Makes sure errors in console map to the correct file
   // and line number
   devtool: 'eval',
   entry: [
-
     // For hot style updates
     'webpack/hot/dev-server',
 
@@ -34,9 +32,7 @@ var config = {
     publicPath: '/build/'
   },
   module: {
-
     loaders: [
-
     // I highly recommend using the babel-loader as it gives you
     // ES6/7 syntax and JSX transpiling out of the box
     {
@@ -51,7 +47,6 @@ var config = {
       test: /\.css$/,
       loader: 'style!css'
     }
-
     ]
   },
 
