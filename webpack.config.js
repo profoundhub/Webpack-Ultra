@@ -32,13 +32,12 @@ var config = {
     publicPath: '/build/'
   },
   module: {
-    loaders: [
+    test: /\.js$/, loaders: [
     // I highly recommend using the babel-loader as it gives you
     // ES6/7 syntax and JSX transpiling out of the box
     {
-      test: /\.js$/,
+
       loader: 'babel',
-      
       exclude: [nodeModulesPath]
     },
 

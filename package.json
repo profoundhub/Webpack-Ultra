@@ -29,7 +29,8 @@
     "babel-cli": "^6.4.0",
     "http-proxy": "^1.14.0",
     "react": "*",
-    "react-dom": "*"
+    "react-dom": "*",
+    "webpack-dev-server": "^1.14.1"
   },
   "devDependencies": {
     "autoprefixer": "^6.0.3",
