@@ -1,7 +1,7 @@
 {
   "name": "webpack-express-ultra",
   "version": "0.1.0",
-  "description": "Running a Webpack workflow in Node express",
+  "description": "Running a Webpack WorkFlow in Node JS Express",
   "main": "server.js",
   "repository": {
     "type": "git",

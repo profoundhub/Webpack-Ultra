@@ -43,5 +43,6 @@ module.exports = {
       test: /\.css$/,
       loader: 'style!css?modules&localIdentName=[name]---[local]---[hash:base64:5]'
     }]
-  }
+  },
+    plugins: [new Webpack.HotModuleReplacementPlugin()]
 };
